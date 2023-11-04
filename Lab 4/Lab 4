@@ -1,0 +1,17 @@
+ls
+
+ls Backup/
+mkdir Original
+cd Original/
+ls
+
+touch request.json
+touch hello.c
+
+rysnc -r ./Original/* Backup/
+
+ifconfig
+ssh khan@172.17.3.72
+rsync -r Backup/* khan@172.2.11.23:/home/khan/Desktop
+
+42(minute),8(hour),14(day of the month),*(every month),*(day of the week)

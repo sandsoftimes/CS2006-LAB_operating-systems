@@ -1,0 +1,5 @@
+Intro: A.o.a
+Name: Muhammad Sherjeel Akhtar
+RollNo: 20p0101
+Semester: 06
+Subject: Operating Systems Lab

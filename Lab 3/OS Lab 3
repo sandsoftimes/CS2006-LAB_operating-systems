@@ -1,0 +1,75 @@
+ls
+
+./script-1.sh
+
+chmod +x script-1.sh
+
+ls -l 
+
+uname
+
+whoami
+
+echo
+
+sum(){
+x=$1
+y=$2
+#k=$(($x+$y))}
+
+
+x=$1
+y=$3
+
+#k=$(($x+$y))
+echo "Sum is: $k"
+exit 0
+
+x=$
+
+ps aux | grep 
+
+Switch Statement in Shell Scripting
+x=$1
+case $x in 
+	1)
+		echo ""
+		;;
+	2)
+		echo ""
+		;;
+	*)
+		echo ""
+		;;
+esae
+exit 0
+
+c=`echo $a + $b |bc`
+
+for x in `cd ../ && ls` ; do 
+echo $x
+done 
+exit 0
+	
+&&----> is used when u want to use multiple shell command at the same time
+
+Shell Scripting
+1- Name.txt
+   My name is Ali
+2- Roll No.txt
+   My roll number is P17-6142
+3- Combine these files into single file.
+make hello.txt before task
+4- hello.txt (C)
+5- touch test.c
+6-hello.txt copy .c 
+7-Read x 
+    If 1 
+    	compile 
+    	   gcc test.c -0 test
+    If 2 
+    	./test
+    if 3 
+    	show code/content
+    *)
+    No case Available

@@ -1,0 +1,21 @@
+sudo apt install docker.io 
+docker -v 
+docker pull mysql
+
+docker run --name myDatabase -e MYSQL_ROOT_PASSWORD=admin -d mysql:latest
+
+docker exec -it myDatabase bash
+
+mysql -u root -p
+
+show databases;
+
+docker run --name my -v ~/Desktop/testData:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=admin -d mysql
+
+create database YourName;
+use YourName;
+create table
+
+docker stop my
+
+docker rm my
